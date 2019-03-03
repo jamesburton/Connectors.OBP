@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.8.0-alpha</Version>
+    <Authors>James Burton</Authors>
+    <Company>Code-Consultants</Company>
+    <Product>Connectors.OBP.NetCore</Product>
+    <Description>An NetCore port of Connectors.OBP to provide easy access to Open Banking.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp.NetCore" Version="105.2.4-rc4-24214-01" />
+    <PackageReference Include="StringFormat" Version="1.0.1" />
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
